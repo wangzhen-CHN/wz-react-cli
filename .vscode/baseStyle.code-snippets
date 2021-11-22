@@ -1,0 +1,866 @@
+{
+  ".bgc_primary{background-color:@c_primary;}": {
+    "prefix": [
+      "bgc_primary"
+    ],
+    "body": [
+      "bgc_primary"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bgc_white{background-color:#fff;}": {
+    "prefix": [
+      "bgc_white"
+    ],
+    "body": [
+      "bgc_white"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bgc_level_1{background-color:@c_bg_1;}": {
+    "prefix": [
+      "bgc_level_1"
+    ],
+    "body": [
+      "bgc_level_1"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bgc_level_2{background-color:@c_bg_2;}": {
+    "prefix": [
+      "bgc_level_2"
+    ],
+    "body": [
+      "bgc_level_2"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bc_primary{border-color:@c_primary;}": {
+    "prefix": [
+      "bc_primary"
+    ],
+    "body": [
+      "bc_primary"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bc_success{border-color:@c_success;}": {
+    "prefix": [
+      "bc_success"
+    ],
+    "body": [
+      "bc_success"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bc_info{border-color:@c_info;}": {
+    "prefix": [
+      "bc_info"
+    ],
+    "body": [
+      "bc_info"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bc_error{border-color:@c_error;}": {
+    "prefix": [
+      "bc_error"
+    ],
+    "body": [
+      "bc_error"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bc_warning{border-color:@c_warning;}": {
+    "prefix": [
+      "bc_warning"
+    ],
+    "body": [
+      "bc_warning"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bc_level_1{border-color:@c_line_1;}": {
+    "prefix": [
+      "bc_level_1"
+    ],
+    "body": [
+      "bc_level_1"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bc_level_2{border-color:@c_line_2;}": {
+    "prefix": [
+      "bc_level_2"
+    ],
+    "body": [
+      "bc_level_2"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bc_level_3{border-color:@c_line_3;}": {
+    "prefix": [
+      "bc_level_3"
+    ],
+    "body": [
+      "bc_level_3"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bw1{border-width:1px;}": {
+    "prefix": [
+      "bw1"
+    ],
+    "body": [
+      "bw1"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".blw1{border-left-width:1px;}": {
+    "prefix": [
+      "blw1"
+    ],
+    "body": [
+      "blw1"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".brw1{border-right-width:1px;}": {
+    "prefix": [
+      "brw1"
+    ],
+    "body": [
+      "brw1"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bbw1{border-bottom-width:1px;}": {
+    "prefix": [
+      "bbw1"
+    ],
+    "body": [
+      "bbw1"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".btw1{border-top-width:1px;}": {
+    "prefix": [
+      "btw1"
+    ],
+    "body": [
+      "btw1"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".make-border-classes(@i(@border-style))when(@i>0){.make-border-classes(@i-1);@style:extract(@border-style,@i);.bs_@}": {
+    "prefix": [
+      "make-border-classes(@i(@border-style))when(@i>0)"
+    ],
+    "body": [
+      "make-border-classes(@i(@border-style))when(@i>0)"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".c_primary{color:@c_primary;}": {
+    "prefix": [
+      "c_primary"
+    ],
+    "body": [
+      "c_primary"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".c_success{color:@c_success;}": {
+    "prefix": [
+      "c_success"
+    ],
+    "body": [
+      "c_success"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".c_info{color:@c_info;}": {
+    "prefix": [
+      "c_info"
+    ],
+    "body": [
+      "c_info"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".c_error{color:@c_error;}": {
+    "prefix": [
+      "c_error"
+    ],
+    "body": [
+      "c_error"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".c_warning{color:@c_warning;}": {
+    "prefix": [
+      "c_warning"
+    ],
+    "body": [
+      "c_warning"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".c_white{color:#fff;}": {
+    "prefix": [
+      "c_white"
+    ],
+    "body": [
+      "c_white"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".c_level_1{color:@c_font_1;}": {
+    "prefix": [
+      "c_level_1"
+    ],
+    "body": [
+      "c_level_1"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".c_level_2{color:@c_font_2;}": {
+    "prefix": [
+      "c_level_2"
+    ],
+    "body": [
+      "c_level_2"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".c_level_3{color:@c_font_3;}": {
+    "prefix": [
+      "c_level_3"
+    ],
+    "body": [
+      "c_level_3"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".c_level_4{color:@c_font_4;}": {
+    "prefix": [
+      "c_level_4"
+    ],
+    "body": [
+      "c_level_4"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".dn{display:none;}": {
+    "prefix": [
+      "dn"
+    ],
+    "body": [
+      "dn"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".db{display:block;}": {
+    "prefix": [
+      "db"
+    ],
+    "body": [
+      "db"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".di{display:inline;}": {
+    "prefix": [
+      "di"
+    ],
+    "body": [
+      "di"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".dib{display:inline-block;}": {
+    "prefix": [
+      "dib"
+    ],
+    "body": [
+      "dib"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".dif{display:inline-flex;}": {
+    "prefix": [
+      "dif"
+    ],
+    "body": [
+      "dif"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".fx{display:flex;}": {
+    "prefix": [
+      "fx"
+    ],
+    "body": [
+      "fx"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".fx-inline{display:inline-flex;}": {
+    "prefix": [
+      "fx-inline"
+    ],
+    "body": [
+      "fx-inline"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".fx-flex1{flex:1;}": {
+    "prefix": [
+      "fx-flex1"
+    ],
+    "body": [
+      "fx-flex1"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".fx-row{.fx;flex-direction:row;}": {
+    "prefix": [
+      "fx-row"
+    ],
+    "body": [
+      "fx-row"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".fx-row-reverse{.fx;flex-direction:row-reverse;}": {
+    "prefix": [
+      "fx-row-reverse"
+    ],
+    "body": [
+      "fx-row-reverse"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".fx-col{.fx;flex-direction:column;}": {
+    "prefix": [
+      "fx-col"
+    ],
+    "body": [
+      "fx-col"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".fx-col-reverse{.fx;flex-direction:column-reverse;}": {
+    "prefix": [
+      "fx-col-reverse"
+    ],
+    "body": [
+      "fx-col-reverse"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".fx-wrap{.fx;flex-wrap:wrap;}": {
+    "prefix": [
+      "fx-wrap"
+    ],
+    "body": [
+      "fx-wrap"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".fx-nowrap{.fx;flex-wrap:nowrap;}": {
+    "prefix": [
+      "fx-nowrap"
+    ],
+    "body": [
+      "fx-nowrap"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".fx-wrap-reverse{.fx;flex-wrap:wrap-reverse;}": {
+    "prefix": [
+      "fx-wrap-reverse"
+    ],
+    "body": [
+      "fx-wrap-reverse"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".fx-h-center{.fx;justify-content:center;}": {
+    "prefix": [
+      "fx-h-center"
+    ],
+    "body": [
+      "fx-h-center"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".fx-h-start{justify-content:flex-start;}": {
+    "prefix": [
+      "fx-h-start"
+    ],
+    "body": [
+      "fx-h-start"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".fx-h-end{.fx;justify-content:flex-end;}": {
+    "prefix": [
+      "fx-h-end"
+    ],
+    "body": [
+      "fx-h-end"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".fx-h-between{.fx;justify-content:space-between;}": {
+    "prefix": [
+      "fx-h-between"
+    ],
+    "body": [
+      "fx-h-between"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".fx-h-around{.fx;justify-content:space-around;}": {
+    "prefix": [
+      "fx-h-around"
+    ],
+    "body": [
+      "fx-h-around"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".fx-h-evenly{.fx;justify-content:space-evenly;}": {
+    "prefix": [
+      "fx-h-evenly"
+    ],
+    "body": [
+      "fx-h-evenly"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".fx-h-initial{.fx;justify-content:initial;}": {
+    "prefix": [
+      "fx-h-initial"
+    ],
+    "body": [
+      "fx-h-initial"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".fx-v-center{.fx;align-items:center;}": {
+    "prefix": [
+      "fx-v-center"
+    ],
+    "body": [
+      "fx-v-center"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".fx-v-start{.fx;align-items:flex-start;}": {
+    "prefix": [
+      "fx-v-start"
+    ],
+    "body": [
+      "fx-v-start"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".fx-v-end{.fx;align-items:flex-end;}": {
+    "prefix": [
+      "fx-v-end"
+    ],
+    "body": [
+      "fx-v-end"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".fx-v-stretch{.fx;align-items:stretch;}": {
+    "prefix": [
+      "fx-v-stretch"
+    ],
+    "body": [
+      "fx-v-stretch"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".fx-v-baseline{.fx;align-items:baseline;}": {
+    "prefix": [
+      "fx-v-baseline"
+    ],
+    "body": [
+      "fx-v-baseline"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".fx-v-initial{.fx;align-items:initial;}": {
+    "prefix": [
+      "fx-v-initial"
+    ],
+    "body": [
+      "fx-v-initial"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".fx-center{.fx;align-items:center;justify-content:center;}": {
+    "prefix": [
+      "fx-center"
+    ],
+    "body": [
+      "fx-center"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".fx-v-center-h-between{.fx;align-items:center;justify-content:space-between;}": {
+    "prefix": [
+      "fx-v-center-h-between"
+    ],
+    "body": [
+      "fx-v-center-h-between"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".fx-shrink-0{flex-shrink:0;}": {
+    "prefix": [
+      "fx-shrink-0"
+    ],
+    "body": [
+      "fx-shrink-0"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".fl{float:left;}": {
+    "prefix": [
+      "fl"
+    ],
+    "body": [
+      "fl"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".fr{float:right;}": {
+    "prefix": [
+      "fr"
+    ],
+    "body": [
+      "fr"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".clearfix{display:inline-table;*zoom:1;::after}": {
+    "prefix": [
+      "clearfix"
+    ],
+    "body": [
+      "clearfix"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".f20{font-size:20px;}": {
+    "prefix": [
+      "f20"
+    ],
+    "body": [
+      "f20"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".f24{font-size:24px;}": {
+    "prefix": [
+      "f24"
+    ],
+    "body": [
+      "f24"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".f28{font-size:28px;}": {
+    "prefix": [
+      "f28"
+    ],
+    "body": [
+      "f28"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".f32{font-size:32px;}": {
+    "prefix": [
+      "f32"
+    ],
+    "body": [
+      "f32"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".f36{font-size:36px;}": {
+    "prefix": [
+      "f36"
+    ],
+    "body": [
+      "f36"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".f40{font-size:40px;}": {
+    "prefix": [
+      "f40"
+    ],
+    "body": [
+      "f40"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".f44{font-size:44px;}": {
+    "prefix": [
+      "f44"
+    ],
+    "body": [
+      "f44"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".f48{font-size:48px;}": {
+    "prefix": [
+      "f48"
+    ],
+    "body": [
+      "f48"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".fw400{font-weight:400;}": {
+    "prefix": [
+      "fw400"
+    ],
+    "body": [
+      "fw400"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".fw500{font-weight:500;}": {
+    "prefix": [
+      "fw500"
+    ],
+    "body": [
+      "fw500"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".fw600{font-weight:600;}": {
+    "prefix": [
+      "fw600"
+    ],
+    "body": [
+      "fw600"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".fw700{font-weight:700;}": {
+    "prefix": [
+      "fw700"
+    ],
+    "body": [
+      "fw700"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".fw800{font-weight:800;}": {
+    "prefix": [
+      "fw800"
+    ],
+    "body": [
+      "fw800"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".lh1{line-height:1;}": {
+    "prefix": [
+      "lh1"
+    ],
+    "body": [
+      "lh1"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".lh1d5{line-height:1.5;}": {
+    "prefix": [
+      "lh1d5"
+    ],
+    "body": [
+      "lh1d5"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".lh2{line-height:2;}": {
+    "prefix": [
+      "lh2"
+    ],
+    "body": [
+      "lh2"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pointer{cursor:pointer;}": {
+    "prefix": [
+      "pointer"
+    ],
+    "body": [
+      "pointer"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".not-allowed{cursor:not-allowed;}": {
+    "prefix": [
+      "not-allowed"
+    ],
+    "body": [
+      "not-allowed"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".H{color:@c_primary;}": {
+    "prefix": [
+      "H"
+    ],
+    "body": [
+      "H"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pa{position:absolute;}": {
+    "prefix": [
+      "pa"
+    ],
+    "body": [
+      "pa"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pr{position:relative;}": {
+    "prefix": [
+      "pr"
+    ],
+    "body": [
+      "pr"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pf{position:fixed;}": {
+    "prefix": [
+      "pf"
+    ],
+    "body": [
+      "pf"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".ps{position:static;}": {
+    "prefix": [
+      "ps"
+    ],
+    "body": [
+      "ps"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".sticky{position:sticky;}": {
+    "prefix": [
+      "sticky"
+    ],
+    "body": [
+      "sticky"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".tac{text-align:center;}": {
+    "prefix": [
+      "tac"
+    ],
+    "body": [
+      "tac"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".tal{text-align:left;}": {
+    "prefix": [
+      "tal"
+    ],
+    "body": [
+      "tal"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".tar{text-align:right;}": {
+    "prefix": [
+      "tar"
+    ],
+    "body": [
+      "tar"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".taj{text-align:justify;}": {
+    "prefix": [
+      "taj"
+    ],
+    "body": [
+      "taj"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".underline{text-decoration:underline;}": {
+    "prefix": [
+      "underline"
+    ],
+    "body": [
+      "underline"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".single-line{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}": {
+    "prefix": [
+      "single-line"
+    ],
+    "body": [
+      "single-line"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".m-auto{margin:auto;}": {
+    "prefix": [
+      "m-auto"
+    ],
+    "body": [
+      "m-auto"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".m-0-auto{margin:0auto;}": {
+    "prefix": [
+      "m-0-auto"
+    ],
+    "body": [
+      "m-0-auto"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".m-auto-0{margin:auto0;}": {
+    "prefix": [
+      "m-auto-0"
+    ],
+    "body": [
+      "m-auto-0"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".ml100{margin-left:100px;}": {
+    "prefix": [
+      "ml100"
+    ],
+    "body": [
+      "ml100"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  }
+}

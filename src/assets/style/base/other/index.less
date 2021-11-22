@@ -1,0 +1,62 @@
+body {
+  color: @c_font;
+  font-size: 12px;
+  font-family: PingFang SC, -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, Hiragino Sans GB,
+    Microsoft Yahei, STHeiti, SimSun, sans-serif;
+  line-height: 1;
+}
+
+a {
+  color: @c_font_1;
+
+  &:hover {
+    color: @c_primary;
+  }
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.not-allowed {
+  cursor: not-allowed;
+}
+
+.H {
+  color: @c_primary;
+}
+
+.h100 {
+  height: 100%;
+}
+
+.overflow-auto {
+  overflow: auto;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.match-svg-icon {
+  width: 56px;
+  height: 56px;
+}
+
+.w-page {
+  width: 1190px;
+  margin: 0 auto;
+}
+
+.primary-hover {
+  &:hover {
+    color: @c_primary;
+  }
+}

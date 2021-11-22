@@ -1,0 +1,15 @@
+{
+  "ReactComp": {
+    "scope": "typescript,typescriptreact",
+    "prefix": "rcp",
+    "body": [
+      "import React, { useState, useEffect } from 'react'",
+      "",
+      "export default function Comp${1:}() {",
+      "  return <>xxxx</>",
+      "}",
+      ""
+    ],
+    "description": "Create React Component template"
+  }
+}
